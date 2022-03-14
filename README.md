@@ -1,4 +1,4 @@
-# Nutriscore Grade Prediction
+# Football results prediction in Premier League
 
 <p align="center">
 	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
@@ -6,20 +6,16 @@
 
 ## Introduction
 
-In 2016, "Santé Publique France" unveiled the nutriscore, a 5-Color label that conveys information on the nutrional quality of food products. Every product is rated with a letter from "A" (the best grade) to "E" (the worst grade). As of today, this system has been used by the majority of companies and retailers, despite the fact that it is not mandatory.
 
-In January 2020, members of the European parliament suggested to extend the use of the Nutriscore. Moreover, a petition on the website "European Citizens Initiative" (eci.ec.europa.eu) was launched in 2019 in order to impose the Nutriscore on food products.
 
 
 ## Business Model
 
-The Nutriscore uses a determinist formula using the nutritional value of the products, but since it is not yet mandatory to display it on a product, would it be possible to estimate the Nutriscore even if we missed some information? This is the goal of this competition: using incomplete information and non-numerical clues in order to assess as accurately as possible the Nutriscore of an item.
+
 
 ## Data sources
 
-The data comes exclusively from the Open Food Facts database, accessible on http://openfoodfacts.org/. The database is available under the Open Database License and is managed by the non-profit organization Open Food Facts. Most of the data is provided by invidual contributors that wish to help the project.
 
-We have gathered data from their database and only selected the features we were interested in for this challenge. In addition, some product data are dirty and have incomplete information.
 
 ## Metric
 There are only five possible outputs (A, B, C, D and E) and the classes are moderately unbalanced. The metric used should penalize depending on the distance between the predicted letter and the true letter. In other words, it should penalize more heavily the prediction of a "E" instead of an "A" than the prediction of a "B" instead of an "A". Moreover, since believing junk food to be health is a greater problem than the opposite, the loss function should reflect that by strongly penalizing overestimates. So, we will convert the letter into an integer between 0 and 4 (E being 0 and A being 4) and then use the following loss function:
