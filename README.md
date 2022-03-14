@@ -1,7 +1,7 @@
 # Nutriscore Grade Prediction
 
 <p align="center">
-	<img width="200px" height="150px" src="https://github.com/k3nz0/nutriscore-prediction/raw/06c4cc51a7a024e36adc4ac3a8886260aced771f/resources/nutriscore.jpg" />
+	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
 </p>
 
 ## Introduction
