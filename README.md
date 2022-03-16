@@ -42,8 +42,11 @@ Ligue : Premier League
 -description des variables du dataset à disposition
 
 Div = League Division
+
 Date = Match Date (dd/mm/yy)
+
 Time = Time of match kick off
+
 HomeTeam = Home Team
 AwayTeam = Away Team
 FTHG and HG = Full Time Home Team Goals
