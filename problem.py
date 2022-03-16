@@ -5,6 +5,7 @@ from rampwf.score_types.base import BaseScoreType
 from sklearn.model_selection import StratifiedShuffleSplit
 import numpy as np
 
+
 problem_title = 'FootballResults5League'
 _target_column_name = 'FTR'
 
