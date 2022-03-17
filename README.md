@@ -25,12 +25,9 @@ Comparer nos résultats avec les cotes d’un site de paris sportif pour voir si
 
 ## Data sources
 
--Football : → 3 issues pour un match→ 3 probas
+-Football : → 3 issues pour un match → 3 probabilités possibles
 
--Comment on construit le data set final : les paramtres n’ont à priori pas un eimportance différente quand on change de pays, et quand on change de saisons
-→ On met tout dans la même base
-
--En général on peut parier jusqu’à 5 minutes avant le début du match. Depuis peu, on peut même parier pendant le match. Mais dans le cadre de notre étude, nous nous focaliserons sur le pari avant le début du match. Nous devons donc exploiter les données récoltées dans le passé. Or, la base de données dont on dispose n’est pas construite en ce sens : c’est une base de données qui associe à chaque match les statistiques de ce match. 
+-En général, il est possible de parier jusqu’à 5 minutes avant le début du match. Depuis peu, on peut même parier pendant le match. Mais dans le cadre de notre étude, nous nous focaliserons sur le pari avant le début du match. Nous devons donc exploiter les données récoltées dans le passé. Or, la base de données dont on dispose n’est pas construite en ce sens : c’est une base de données qui associe à chaque match les statistiques de ce match. 
 
 Comme le Football est un sport international, les données de matches sont générées de manière exponentielle. Il a donc fallu faire des choix par rapport à des contraintes techniques. Nous avons donc fait le choix de nous focaliser sur les aspects suivants : 
 
@@ -105,16 +102,12 @@ HR = Home Team Red Cards
 
 AR = Away Team Red Cards
 
-HBP = Home Team Bookings Points (10 = yellow, 25 = red)
-
-ABP = Away Team Bookings Points (10 = yellow, 25 = red)
-
 Nous avons cependant effectué une première étape de Data Engineering, la base de données étant loin d'être utilisable tel quel. Cette étape est expliqué en détail dans le notebook starting_kit.
 
 
 ## Métrique
 
-Nous allons utiliser l'accuracy comme métrique de notre modèle. C'est une mesure assez simple qui permet d'avoir des résultats acceptable pour notre tâche de classification.
+Nous allons utiliser l'accuracy, la balanced accuracy et le f1 score comme métriques de notre modèle. Ce sont des mesures qui se prêtent bien à la tache de classification multi-classe. Nous avons rajouté la balanced accuracy car les classes ne sont pas exactement en même proportion dans la base de données. Ceci est normal car une équipe a en général plus de chance de gagner à domicile.
 
 ## Submission
 
