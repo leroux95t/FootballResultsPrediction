@@ -20,6 +20,8 @@ workflow = rw.workflows.Classifier()
 
 score_types = [
     rw.score_types.Accuracy(name='acc'),
+    rw.score_types.BalancedAccuracy(name='BalancedAcc'),
+    rw.score_types.F1Above(name='F1A'),
 ]
 
 
