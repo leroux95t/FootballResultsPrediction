@@ -1,5 +1,5 @@
 # DataCamp: Can we make the BookMakers tremble?
-Authors : Thomas Le Roux, Timothée Fassier, Vincent Mongkhoun, Ahmath Gadji 
+*Authors : Thomas Le Roux, Timothée Fassier, Vincent Mongkhoun, Ahmath Gadji* 
 <p align="center">
 	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
 	<img width="500" height="150" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Parions_Sport_Logo_%282019%29.png" />
