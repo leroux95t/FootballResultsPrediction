@@ -1,4 +1,4 @@
-# Projet DataCamp: Peut-on faire trembler les BookMakers?
+# DataCamp: Can we make the BookMakers tremble?
 Authors : Thomas Le Roux, Timothée Fassier, Vincent Mongkhoun, Ahmath Gadji 
 <p align="center">
 	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
