@@ -2,7 +2,7 @@
 Authors : Thomas Le Roux, Timothée Fassier, Vincent Mongkhoun, Ahmath Gadji 
 <p align="center">
 	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
-	<img width="200px" height="150px" src="https://fr.wikipedia.org/wiki/Winamax#/media/Fichier:Logo_Winamax.svg" />
+	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_Betclic_2019.svg" />
 </p>
 
 ## Introduction
