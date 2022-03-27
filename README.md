@@ -1,9 +1,9 @@
 # Projet DataCamp: Peut-on faire trembler les BookMakers?
 Authors : Thomas Le Roux, Timothée Fassier, Vincent Mongkhoun, Ahmath Gadji 
 <p align="center">
-	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
 	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/f/fe/Logo_Betclic_2019.svg" />
-	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Parions_Sport_Logo_%282019%29.png" />
+	<img width="200px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/6/6e/Football_%28soccer_ball%29.svg" />
+	<img width="250px" height="150px" src="https://upload.wikimedia.org/wikipedia/commons/5/55/Parions_Sport_Logo_%282019%29.png" />
 	
 </p>
 
